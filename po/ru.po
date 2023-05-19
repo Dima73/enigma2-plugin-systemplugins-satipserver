@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SATIPserver\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-11 10:58+0200\n"
+"PO-Revision-Date: 2023-05-19 20:35+0300\n"
+"Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
+"Language-Team: Dimitrij PLi\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: plugin.py:52
+msgid "Attention - only one server can be used at the same time!"
+msgstr "Внимание - одновременно можно использовать только один сервер!"
+
+#: plugin.py:67
+msgid "Disable autostart Minisatip"
+msgstr "Отключить автостарт Minisatip"
+
+#: plugin.py:47
+msgid "Disable autostart SatPI"
+msgstr "Отключить автостарт SatPI"
+
+#: plugin.py:69
+msgid "Enable autostart Minisatip"
+msgstr "Включить автостарт Minisatip"
+
+#: plugin.py:49
+msgid "Enable autostart SatPI"
+msgstr "Включить автостарт SatPI"
+
+#: plugin.py:58
+msgid "Install Minisatip"
+msgstr "Установить Minisatip"
+
+#: plugin.py:38
+msgid "Install SatPI"
+msgstr "Установить SatPI"
+
+#: plugin.py:56
+msgid "Minisatip server - WEB 'http://<box ip>:8080'"
+msgstr "Minisatip сервер - WEB 'http://<айпи ресивера>:8080'"
+
+#: plugin.py:80
+msgid "Really execute now?"
+msgstr "Действительно выполнить сейчас?"
+
+#: plugin.py:26 plugin.py:93 plugin.py:98
+msgid "SAT>IP server"
+msgstr "SAT>IP сервер"
+
+#: plugin.py:98
+msgid "SAT>IP servers for enigma2"
+msgstr "SAT>IP сервера для enigma2"
+
+#: plugin.py:36
+msgid "SatPI server - WEB 'http://<box ip>:8875'"
+msgstr "SatPI сервер - WEB 'http://<айпи ресивера>:8875'"
+
+#: plugin.py:64
+msgid "Start Minisatip"
+msgstr "Старт Minisatip"
+
+#: plugin.py:44
+msgid "Start SatPI"
+msgstr "Старт SatPI"
+
+#: plugin.py:62
+msgid "Stop Minisatip"
+msgstr "Стоп Minisatip"
+
+#: plugin.py:42
+msgid "Stop SatPI"
+msgstr "Стоп SatPI"
+
+#: plugin.py:70
+msgid "Unistall Minisatip"
+msgstr "Удалить Minisatip"
+
+#: plugin.py:50
+msgid "Unistall SatPI"
+msgstr "Удалить SatPI"
