@@ -8,6 +8,7 @@ from Components.ActionMap import ActionMap
 from Components.MenuList import MenuList
 import os
 
+
 class SATIPserver(Screen):
 	if getDesktop(0).size().width() >= 1920:
 		skin = """
@@ -85,13 +86,16 @@ class SATIPserver(Screen):
 		if answer and self.runEntry:
 			self.session.openWithCallback(self.initList, Console, self.runEntry[0], [self.runEntry[1]])
 
+
 def main(session, **kwargs):
 	session.open(SATIPserver)
+
 
 def menu(menuid, **kwargs):
 	if menuid == "scan":
 		return [(_("SAT>IP server"), main, "sat_ip_server", 54)]
 	return []
+
 
 def Plugins(**kwargs):
 	pList = []
